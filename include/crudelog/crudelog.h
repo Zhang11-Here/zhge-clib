@@ -8,7 +8,7 @@
 
 #define ZHGEC_CRUDELOG_BASE(level, color, ofile, ...) \
 	do { \
-		fprintf(ofile, "%s[%s]\t[%s:%d %s]", \
+		fprintf(ofile, "%s[%s]\t[%s:%d %s]\t", \
 				color, level, \
 				__FILE__, __LINE__, __func__); \
 		fprintf(ofile, __VA_ARGS__); \
