@@ -1,4 +1,4 @@
-// zhge-clib/tests/test_crudetest/test_crudetest.c
+/* zhge-clib/include/test_crudetest/test_crudetest.c */
 
 #include "crudetest/crudetest.h"
 
@@ -33,7 +33,7 @@ int main()
 {
 	ZHGEC_CRUDETEST_RUN(test_ok);
 	ZHGEC_CRUDETEST_RUN(test_fail);
-	ZHGEC_CRUDETEST_RUN(*&*&test_ok_rename);
+	ZHGEC_CRUDETEST_RUN(*&*&test_ok_rename); /* deliberate */
 	ZHGEC_CRUDETEST_RUN(*&*&test_fail_rename);
 
 	return 0;

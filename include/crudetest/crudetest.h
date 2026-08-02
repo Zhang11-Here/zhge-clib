@@ -1,25 +1,27 @@
-// zhge-clib/include/crudetest/crudetest.h
+/* zhge-clib/include/crudetest/crudetest.h */
 
 #ifndef ZHGEC_CRUDETEST_CRUDETEST_H
 #define ZHGEC_CRUDETEST_CRUDETEST_H
 
-// e.g.
-// ZHGEC_CRUDETEST_TEST(test) {
-// 	int num = 10;
-// 	ZHGEC_CRUDETEST_ASSERT(num < 20);
-// 	ZHGEC_CRUDETEST_FINISH();
-// }
-// // in a function
-// ZHGEC_CRUDETEST_RUN(test)
-//
-// output when it is OK:
-// [   OK] test  <<green>>
-// or fail:
-// [ FAIL] test (what you write) <<red>>
-//     -> file: example/file.c
-//     -> line: 114
-//     -> func: test (the real function name)
-//     -> expression:  num < 20
+/*
+ * e.g.
+ * ZHGEC_CRUDETEST_TEST(test) {
+ * 	int num = 10;
+ * 	ZHGEC_CRUDETEST_ASSERT(num < 20);
+ * 	ZHGEC_CRUDETEST_FINISH();
+ * }
+ * (( in a function ))
+ * ZHGEC_CRUDETEST_RUN(test)
+ *
+ * output when it is OK:
+ * [   OK] test  <<green>>
+ * or fail:
+ * [ FAIL] test (what you write) <<red>>
+ *     -> file: example/file.c
+ *     -> line: 114
+ *     -> func: test (the real function name)
+ *     -> expression:  num < 20
+*/
 
 
 #include <stdio.h>
