@@ -5,10 +5,11 @@
 
 int main(void)
 {
-	ZHGEC_CRUDELOG_ERROR("error: %d", 10);
-	ZHGEC_CRUDELOG_WARN("warn: %d", 20);
-	ZHGEC_CRUDELOG_INFO("info: %d", 30);
-	ZHGEC_CRUDELOG_DEBUG("debug: %d", 40);
+	ZHGEC_CRUDELOG_ERROR("exam: %d", 10);
+	ZHGEC_CRUDELOG_WARN("exam: %d", 20);
+	ZHGEC_CRUDELOG_INFO("exam: %d", 30);
+	ZHGEC_CRUDELOG_DEBUG("exam: %d", 40);
+
 	printf("now it should be white\n");
 	return 0;
 }
