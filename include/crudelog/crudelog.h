@@ -23,7 +23,7 @@
 	ZHGEC_CRUDELOG_BASE("WARN", "\x1b[33m", stderr, __VA_ARGS__)
 
 #define ZHGEC_CRUDELOG_INFO(...) \
-	ZHGEC_CRUDELOG_BASE("INFO", "\x1b[37m", stdout, __VA_ARGS__)
+	ZHGEC_CRUDELOG_BASE("INFO", "\x1b[32m", stdout, __VA_ARGS__)
 
 #define ZHGEC_CRUDELOG_DEBUG(...) \
 	ZHGEC_CRUDELOG_BASE("DEBUG", "\x1b[36m", stdout, __VA_ARGS__)
