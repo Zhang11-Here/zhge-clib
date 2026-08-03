@@ -1,7 +1,7 @@
-/* zhge-clib/tests/test_crudelog/test_crudelog.c */
+/* zhge-clib/tests/test_crudelog.c */
 
 
-#include "crudelog/crudelog.h"
+#include "crudelog.h"
 
 int main(void)
 {

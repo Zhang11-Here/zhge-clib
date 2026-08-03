@@ -1,7 +1,7 @@
-/* zhge-clib/include/crudelog/crudelog.h */
+/* zhge-clib/include/crudelog.h */
 
-#ifndef ZHGEC_CRUDELOG_CRUDELOG_H
-#define ZHGEC_CRUDELOG_CRUDELOG_H
+#ifndef ZHGEC_CRUDELOG_H
+#define ZHGEC_CRUDELOG_H
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
-/* zhge-clib/include/crudetest/crudetest.h */
+/* zhge-clib/include/crudetest.h */
 
-#ifndef ZHGEC_CRUDETEST_CRUDETEST_H
-#define ZHGEC_CRUDETEST_CRUDETEST_H
+#ifndef ZHGEC_CRUDETEST_H
+#define ZHGEC_CRUDETEST_H
 
 /*
  * e.g.

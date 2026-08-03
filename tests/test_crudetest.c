@@ -1,6 +1,6 @@
-/* zhge-clib/include/test_crudetest/test_crudetest.c */
+/* zhge-clib/tests/test_crudetest.c */
 
-#include "crudetest/crudetest.h"
+#include "crudetest.h"
 
 ZHGEC_CRUDETEST_TEST(test_ok)
 {
