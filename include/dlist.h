@@ -38,7 +38,7 @@ static inline void zhgec_dlist_link(
 }
 
 /*
- * Replace the content of (front, back) into [front, back].
+ * Replace the content of (prev, next) into [front, back].
  * Old content will be removed.
  * > Insert a node:
  *	zhgec_dlist_replace(node, node, prev, next)
