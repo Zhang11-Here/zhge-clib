@@ -10,5 +10,10 @@ struct zhgec_slist_node
 };
 
 
+
+#define zhgec_slist_foreach(ptr, begin, end) \
+	for ((ptr) = (begin); (ptr) != (end); (ptr) = (ptr)->next)
+
+
 #endif
 
