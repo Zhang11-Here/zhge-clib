@@ -11,7 +11,7 @@
  * struct test_struct *p = GETBASE(memp, struct test_struct, mem);
  */
 #define GETBASE(ptr, type, member) \
-	(type *)((char *)(ptr) - offsetof(type, member))
+	((type *)((char *)(ptr) - offsetof(type, member)))
 
 
 #endif
