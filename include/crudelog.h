@@ -32,7 +32,7 @@
 #define ZHGEC_CRUDELOG_INFO(...) \
 	ZHGEC_CRUDELOG_BASE("INFO", "\x1b[32m", stdout, __VA_ARGS__)
 
-/* info: cyan */
+/* debug: cyan */
 #define ZHGEC_CRUDELOG_DEBUG(...) \
 	ZHGEC_CRUDELOG_BASE("DEBUG", "\x1b[36m", stdout, __VA_ARGS__)
 
